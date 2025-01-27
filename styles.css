@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.bg-gradient-to-br {
+  background: linear-gradient(to bottom right, #1a1a1a, #111827, #0d1117);
+}
+
+.bg-opacity-90 {
+  background-color: rgba(17, 24, 39, 0.9);
+}
+
+.backdrop-blur-md {
+  backdrop-filter: blur(12px);
+}
+
+.text-green-400 {
+  color: #34D399;
+}
+
+.hover\:text-green-400:hover {
+  color: #34D399;
+}
+
+.bg-green-800 {
+  background-color: #065f46;
+}
+
+.hover\:bg-green-700:hover {
+  background-color: #047857;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.filter {
+  filter: brightness(0.25);
+}
+
+.animate-bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
